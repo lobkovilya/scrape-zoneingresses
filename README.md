@@ -12,7 +12,7 @@ Fetches zone ingress data from Konnect API and saves configuration files.
 ```bash
 # Set environment variables
 export KONNECT_TOKEN="your-token"
-export KONNECT_API_URL="https://api.konghq.com"
+export KONNECT_API_URL="https://us.api.konghq.com/v1/mesh/control-planes/$cpId"
 
 # Fetch all zone ingresses
 ./fetch_zoneingresses.sh
