@@ -15,10 +15,10 @@ export KONNECT_TOKEN="your-token"
 export KONNECT_API_URL="https://us.api.konghq.com/v1/mesh/control-planes/$cpId"
 
 # Fetch all zone ingresses
-./fetch_zoneingresses.sh
+./scrape.sh
 
 # Fetch only zone ingresses in specific zone
-./fetch_zoneingresses.sh --zone "us-west-1"
+./scrape.sh --zone "us-west-1"
 ```
 
 ## Output
